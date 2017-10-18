@@ -2,5 +2,5 @@
 
 
 
-![tic-tac-toe-ss](https://user-images.githubusercontent.com/32637452/31681284-7e46e098-b37f-11e7-8627-1ccb3548ebe7.png)
+![screenshot-2017-10-18 tic tac teo game](https://user-images.githubusercontent.com/32637452/31720820-509f8978-b420-11e7-8acd-e9539cacbbe1.png)
 

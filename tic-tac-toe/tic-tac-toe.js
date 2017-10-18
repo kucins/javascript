@@ -11,7 +11,7 @@ function NextMove(cell){
 function SwitchTurn(){
 
 	if(CheckWinner(document.turn))
-		document.getElementById("p1").innerText = "The Winner" document.turn ;
+		document.getElementById("p1").innerText = "The Winner " + document.turn ;
 
 	if(document.turn=="X")
 		document.turn="O";
