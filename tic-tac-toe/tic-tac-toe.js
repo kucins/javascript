@@ -1,9 +1,9 @@
 function startGame(){
 	document.turn ="X";
 }
-function NextMove(kare){
-	if(kare.innerText==""){
-		kare.innerText=document.turn;
+function NextMove(cell){
+	if(cell.innerText==""){
+		cell.innerText=document.turn;
 		SwitchTurn();
 	}
 }
