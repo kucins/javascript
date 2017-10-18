@@ -1,53 +1,20 @@
 <html>
-<head>
+	<head>
+		<script type="text/javascript" src="roman.js"></script>
+		<link rel="stylesheet" type="text/css" href="roman.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<h1>Roman Numerals</h1>
+	</head>
 
- <script type="text/javascript" src="roman.js"></script>
- <h1>Roma Rakamları</h1>
- 
-</head>
-
-<body>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-body { 
-        font-size : x-large; 
-        font-family : Lobster;    
-        border:1px solid black;
-        margin: auto;
-        width:960px;
-        background:rgb(245,245,245);
-}
-div{
-    width : 300px; 
-	height : 400px;
-    padding-left : 100px;
-	margin: 0px auto;
-	margin-top : 40px;
-    background-color : skyblue;	
-}
-#p1{
-   padding-top : 20px;
-}
-h1{
-  text-align : center;
-  padding-top : 50px;
-}
-button{
-  border-color : black;
-  background-color : green; 
-  color : white; 
-  text-align : center;
-  font-size: 16px;
-}
-</style>
-<table>
- <div>
-<p id="p1"> Bir sayı giriniz </p>
-    <input type="text" id="text1"/> <br> <br>
-	<button  onclick= "Convert()" >çevir</button><br>
-    <p id="snc">Sonuç : </p>
-</div> 
-</table>
-</body>
+	<body>
+		<table>
+			<div>
+				<p id="p1"> Enter A Number </p>
+				<input type="text" id="text1"/> <br> <br>
+				<button  onclick= "Convert()" >Convert</button><br>
+				<p id="result">Roman Numeral : </p>
+			</div> 
+		</table>
+	</body>
 
 </html>

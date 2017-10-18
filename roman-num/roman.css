@@ -1,0 +1,31 @@
+
+body { 
+	font-size : x-large; 
+	font-family : Lobster;    
+	border:1px solid black;
+	margin: auto;
+	width:960px;
+	background:rgb(245,245,245);
+}
+div{
+	width : 300px; 
+	height : 400px;
+	padding-left : 100px;
+	margin: 0px auto;
+	margin-top : 40px;
+	background-color : skyblue;	
+}
+#p1{
+	padding-top : 20px;
+}
+h1{
+	text-align : center;
+	padding-top : 50px;
+}
+button{
+	border-color : black;
+	background-color : green; 
+	color : white; 
+	text-align : center;
+	font-size: 16px;
+}
