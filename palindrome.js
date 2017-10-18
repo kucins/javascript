@@ -3,4 +3,4 @@ function palindrome(str) {
   return newstr == str.toLowerCase().replace(/[\W_]/g,'').split('').reverse().join('');
 }
 
-palindrome("eye");
+palindrome("eye"); 
