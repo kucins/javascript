@@ -1,1 +1,1 @@
-# Factorialize
+# Factorialize a Number
